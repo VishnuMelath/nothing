@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'dottedfont';
+    src: url('ndot-47-inspired-by-nothing.otf');
+}
+#main
+{
+    padding: 0px;
+    margin: 0%;
+}
+#dottedtext
+{
+    font-family: 'dottedfont' !important;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.738);
+} 
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'dottedfont';
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.738);
+}
+#navbar
+{
+    position: relative;
+    margin-left: 9%;
+    z-index: 1;
+    
+}
+#photo
+{
+    display: none;
+  position: fixed;
+  left: 0%;
+  width: 100%;
+
+}
+#photobutton:hover #photo
+{
+display: block;
+
+}
+img
+{
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+#photobutton:hover img
+{
+transform: rotate(180deg);
+}
+.margin1
+{
+    margin-left: 22.5%;
+}
+.margin2
+{
+    margin-left: 25.5%;
+}
+.margin3
+{
+    margin-left: 30%;
+}
+li
+{
+    margin: 0px;
+    padding: 0%;  
+}
+sup
+{
+    color: red;
+    font-weight: 100;
+}
+#navbarfull
+{
+    
+    position: fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+    display: block;
+    top: 0%;
+    padding: 0%;
+    transition: 1s;
+    background-color: white;
+}
+#profile
+{
+    margin-right: 50px;
+    margin-bottom: 5px;
+    width: 30px;
+    
+}
+#hanburger
+{
+    position: absolute;
+    right: 0%;
+}
+#content
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+ 
+}
+#font
+{
+   font-family: 'Courier New', Courier, monospace;
+}
+#content p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+#button
+{
+    transition: 0.5s;
+    display: flex;
+    margin: 8px 8px 0px 0px;
+    padding: 12px 20px;
+    border-radius: 1cm;
+    background-color: rgb(14, 14, 111);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+#button:hover
+{
+    transform: scale(1.03,1);
+    cursor: pointer;
+}
+#lower
+{
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: rgb(14, 14, 111);
+    text-decoration: underline;
+}
+#lower2,#lower1
+{
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: rgb(14, 14, 111);
+    text-decoration: none;
+    z-index: 2;
+
+}
+#lower2
+{
+    float: right;
+}
+#lower:hover
+{
+    cursor: pointer;
+    
+}
+#pic
+{
+    position: relative;
+    z-index: -1;
+   
+}
+#fontabovepic
+{
+    position: absolute;
+    writing-mode: vertical-lr;
+    left: 20px;
+    overflow: hidden;
+    height: 100%;
+    color: black;
+    width: 170px;
+}
+#fontabovepic1
+{
+    position: absolute;
+    writing-mode: vertical-lr;
+    left: 20px;
+    width: 170px;
+    overflow: hidden;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+#row
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;}
+#upper
+{
+    font-weight: 800;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+  
+}
+#lower3
+{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+
+  
+}
+#lower4
+{
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+  color: #ffffffd3;
+  cursor: pointer;
+  text-decoration: none;
+}
+#none
+{
+    border-top: 1px solid white;
+
+}
+.textbox
+{
+    display: flex;
+    max-width: 450px;
+    position: relative;
+    top: 0px;
+    padding: 5px;
+}
+#svgicon
+{
+    fill: aliceblue;
+    position: absolute;
+    right: 1%;
+    top: 25%;
+}
+#text
+{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+  #india
+  {
+    justify-content: end;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #icons svg
+  {
+    cursor: pointer;
+  }
+  @media screen and (max-width:800px){
+    #none
+    {
+        float: inline-start;
+        margin: 0px;
+        padding: 0%;
+    }
+    #lower3
+    {
+        padding: 0%;
+        font-size: 20px;
+    }
+    
+    #lower3 div
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+  }
